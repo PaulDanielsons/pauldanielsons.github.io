@@ -1,0 +1,140 @@
+/* 
+Variables:
+White: #f7f6f0
+Light Blue: #a7cbd5
+gray: #71777d
+dark gray: #4d4c59
+darkest: #362c36
+*/
+@import url('https://fonts.googleapis.com/css?family=Amiko|Pacifico');
+
+html, body {
+    height:100%;
+    width:100%;
+    font-family: 'Amiko';
+}
+.navbar {
+    background-color: #f7f6f0;
+    padding: 10px;
+    font-size: 1.2em; 
+     
+}
+.navbar header {
+    font-size: 200%;
+    font-family: 'pacifico';
+    font-weight: light;
+}
+
+i{
+    font-size:20px;
+    padding:15px;
+}
+
+.navbar-brand img{
+    min-height: 50px;
+    max-height:100%;
+    padding-top:0px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    
+} 
+.navbar-default .navbar-nav li a.active{
+    color:#362c36;
+    padding-right:30px;
+}
+.navbar-default .navbar-nav li a:hover{
+    font-weight: bold;
+    color: #a7cbd5;
+}
+#home {
+background: url(Assets/computer-2982270_1920.jpg) no-repeat center center fixed;
+display: table;
+height:85%;
+width: 100%;
+position: relative;
+background-size: cover;
+}
+#about-cover {
+    background: url(Assets/Cincinnati.jpg) no-repeat center center fixed;
+    display: table;
+    height:70%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    }
+#home-transparent{
+    background:rgba(0, 0, 0, 0.6)  no-repeat center center fixed;
+    display: table;
+    height:100%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    }
+
+.landing-text {
+    color:white;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.landing-text h1 {
+    font-size: 500%;
+    font-weight:700;
+    text-shadow: 2px 2px #373737;
+}
+.padding {
+    padding: 80px;
+}
+.padding img {
+    width:100%;
+}
+/* #fixed {
+    background: url(Assets/paul_horizontal.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+} */
+
+footer {
+    width: 100%;
+    background-color: #f7f6f0;
+    padding: 5% 5% 5% 10%;
+    color: #362c36;
+}
+
+footer a.active {
+    text-decoration: none;
+}
+
+.fab, .fa{
+    padding: 20px;
+    font-size:20px;
+}
+.fab:hover, .fa:hover{
+    padding: 20px;
+    font-size:20px;
+    text-decoration: none;
+
+}
+/* hobbies */
+.fas,  .far{
+    padding: 20px;
+    font-size:30px;
+}
+
+@media (max-width: 768px){
+    .landing-text h1{
+        font-size: 300%;
+    }
+    .fas, .far {
+        font-size: 15px;
+        padding: 10px;
+    }
+    .icon {
+        padding-top: 5%;
+        max-width: 100px;
+    }
+}
